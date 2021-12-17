@@ -1,6 +1,6 @@
 # proyecto-final-coderhouse-st
 
-<h1 align="center">Hi 👋, I'm Nicolas Vera Nicolas Vera</h1>
+<h1 align="center">Hi 👋, I'm Nicolas Vera </h1>
 <h3 align="center">A passionate frontend developer and video games</h3>
 
 - 🔭 I’m currently working on [StartGames](https://github.com/NicolasJVera/proyecto-final-coderhouse-st)
