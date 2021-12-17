@@ -1,0 +1,85 @@
+ @import '../base/variables';
+@import '../base/extends';
+
+ /* Footer */
+  
+ footer {  
+    padding: 2rem 0; 
+    margin-top: 5rem;   
+    margin-left: 2rem;
+    margin-right: 2rem;   
+    background: $background;
+    @extend %flex;
+
+    p {
+        margin-bottom: 0.8rem;
+    }
+ }
+ 
+ .footer-tienda h4{
+    margin-bottom: 0.8rem;
+ }
+ .footer-tienda ul {
+    list-style: none;   
+    display: flex;
+    padding-left: 0;
+ }
+ .footer-tienda i{
+    margin: 0.3rem;
+    font-size: 2rem;
+    padding: 0;
+ }
+ 
+ .contacto{
+    flex-basis: 45%;
+ }
+ .contacto {
+
+    form{
+        display: grid;
+        grid-template-rows: 2rem 2rem 2rem;
+        grid-template-columns: auto auto;
+        align-content: center;   
+        grid-gap:0.7rem
+      } 
+ }
+
+ .contacto #nombre {
+    grid-row: 1/2;
+    grid-column: 1/2;
+ }
+ .contacto #emailContacto{
+    grid-row: 2/3;
+    grid-column: 1/2;
+ }
+ .contacto textarea{
+    grid-row: 1/4;
+    grid-column: 2/3;
+ }
+ .contacto button {  
+    grid-row: 3/4;
+    grid-column: 1/2;
+    justify-self: start;
+ }
+ .boton{
+    padding: 0.4rem;
+    border-color: $color-rojo;
+    background-color: $color--rojo-oscuro;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 0.80rem;
+
+    &:hover {
+      border-color: $color--blanco;  
+      color: $color--blanco;  
+      background-color: $color--negro;
+    }
+ }
+ 
+ input,textarea{
+    background: $background;
+ 
+ }
+   
+ /* Fin Footer */

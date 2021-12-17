@@ -1,0 +1,51 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  html {
+    font-size: 62.5%;
+    /* 1rem = 10px */
+  }
+  
+  body {
+    font-family: "Lato", sans-serif;
+    background-color: white;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    font-size: 20rem;
+  }
+  
+  h3 {
+    text-align: center;
+    font-size: 3rem;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: var(--color--rojo);
+  }
+  
+  h4 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }

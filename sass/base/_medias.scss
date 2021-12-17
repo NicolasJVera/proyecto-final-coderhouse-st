@@ -1,0 +1,58 @@
+/* medias queries */
+
+/* Medias para Header */
+
+@media (min-width: 768px) and (max-width: 979px) {
+    .espacio, .espacio .span {
+      width: 100%;
+  }
+  }
+  
+  @media (min-width: 768px) and (max-width: 979px) {
+    .espacio .span {
+      margin-left: 0;
+  }
+  }
+  
+  /* Medias para index, tienda, accesorios, videojuegos */
+
+  @media (max-width:767px) {
+    .item-image {
+      width: auto;
+      max-width: none;
+      height: 100%;
+      max-height: 300px;
+  }
+  }
+
+  @media (max-width:366px){
+    h1{
+        font-size: 2.2rem;
+    }
+  }
+  
+  @media (max-width: 767px) {
+      .fondo-tienda {
+        background-color: #d9dddf;
+        padding: 1.8rem 0;
+        margin: 10px 20px 10px;
+        display: inline-flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+  }
+    }
+  
+  @media (max-width: 767px) {
+    .descripcion, .precio {
+      font-size: 15px;
+      padding: 0;
+      margin: 5px 5px 5px 5px;
+      overflow: hidden;
+      display: -webkit-box;
+      @mixin media-querie {
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+      }
+      line-height: initial;
+  }
+  }

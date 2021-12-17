@@ -1,0 +1,147 @@
+@import '../base/variables';
+
+/* Header */
+
+.navContainer {
+  display: flex;
+  justify-content: left;
+}
+
+.mensaje-bienvenida {
+    background-color: #d2162c;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+
+  .banner img {
+    width: 100%;
+  }
+  
+  .publicidad {
+    color: #ecf0f1;
+    background-color: #141212;
+    padding: 5px 0;
+    font-size: 17px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .container-publicidad {
+    padding-right: 20px;
+      padding-left: 20px;
+  }
+  
+  .espacio {
+    width: 100%;
+
+        .espacio {
+            width: 100%;
+
+            span {
+                width: 100%;
+            }
+        }
+    }
+  
+  .body-tienda {
+
+    header {
+        position: relative;
+
+        main {
+            margin: 10rem;
+        }
+    }
+  } 
+  
+  header {
+    display: flex;   
+    justify-content: center;
+    align-items: center;   
+
+    a {
+        text-decoration: none;
+        color: $color--negro; 
+    }
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    li {
+        padding: 0 0.1rem;
+
+        a {
+            color: $color--negro;
+            background-color: $color--blanco;
+            padding: 0.8rem;
+            border-radius: 2rem;
+            transition: all 0.5s;
+
+            &:hover {
+              background-color: $color-rojo;
+              color: $color--negro;
+            }
+        }
+    }
+  } 
+  
+  .sub-menu {
+
+    ul {
+
+        li {
+
+            a {
+                color: $color--negro;
+                background-color: $color-rojo;
+                padding: 0.8rem;
+                border-radius: 2rem;
+                transition: all 0.5s;
+            }
+        }
+    }
+  }
+  
+  .container-fluid {
+    height: 90%;
+    width: 100%;
+  }
+  
+  .carousel-inner {
+    height: 300px;
+
+    img {
+        height: 300px;
+    }
+  }
+  
+  .banner {
+    width: 100%;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    margin-bottom: 3rem;
+  }
+  
+  .logo {
+    width: 4rem;
+    border-radius: 50%;
+    padding: 0.5rem;
+
+    img {
+    width: 100%;
+    height: auto;
+    background-color: $color--blanco;
+    }
+  }
+  
+  

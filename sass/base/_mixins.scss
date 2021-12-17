@@ -1,0 +1,8 @@
+@mixin width($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+
+.container-fluid {
+    @include width(100%, 90%,)
+  }

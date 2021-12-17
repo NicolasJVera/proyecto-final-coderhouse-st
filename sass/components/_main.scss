@@ -1,0 +1,42 @@
+/*Main Y Grid */
+  
+.espacio-banner {
+    margin-bottom: 20px;
+  }
+
+  .container-fluid {
+     width: 100%;
+    padding-right: 75rem;
+    padding-left: 75rem;
+    margin-right: auto;
+    margin-left: auto;
+   }
+
+   .tiendaContainer {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   flex-wrap: wrap;
+   }
+
+   .item {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   flex-wrap: wrap;
+   background-color: #fff;
+   width: 300px;
+   border-radius: 15px;
+   -webkit-box-shadow: 0px 0px 7px 1px rgb(0, 0, 0, 0.438);
+   box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.466);
+   margin: 1rem;
+   padding: 0.5rem;
+}
+
+.itemBody {
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+}
