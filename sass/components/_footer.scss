@@ -15,10 +15,7 @@
         margin-bottom: 0.8rem;
     }
  }
- 
- .footer-tienda h4{
-    margin-bottom: 0.8rem;
- }
+
  .footer-tienda ul {
     list-style: none;   
     display: flex;
@@ -44,14 +41,13 @@
       } 
  }
 
- .contacto #nombre {
-    grid-row: 1/2;
-    grid-column: 1/2;
+ .contacto #nombre, #emailContacto {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   flex-wrap: wrap;
  }
- .contacto #emailContacto{
-    grid-row: 2/3;
-    grid-column: 1/2;
- }
+ 
  .contacto textarea{
     grid-row: 1/4;
     grid-column: 2/3;
