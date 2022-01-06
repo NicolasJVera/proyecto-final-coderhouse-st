@@ -18,7 +18,6 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- CSS BOOTSTRAP -->
     <link rel="stylesheet" href="css/bootstrap.css">
-
      <!-- AOS -->
      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
@@ -27,17 +26,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
 
+    <!-- Titulo -->
     <title>START GAMES | INICIO</title>
 </head>
 <body class="body-tienda">
     
-<!-- Inicio del Header -->
+<!-- Inicio Header -->
 <header>
+  <!--Logo -->
     <a href="index.html">
         <div class="logo">
             <img src="src/assets/logo/logo.svg" alt="Logo" title="Logo">
         </div>
-    </a>
+    </a> <!-- /// Logo -->
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"></a>
@@ -47,7 +48,7 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav menu">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+                <a class="nav-link" aria-current="page" href="index.html">INICIO</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link seccion-activa" href="preventas.html">PREVENTAS</a>
@@ -55,16 +56,16 @@
               <li class="nav-item">
                 <a class="nav-link" href="accesorios.html">ACCESORIOS</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link seccion-activa" href="tienda.html">TIENDA</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="tienda.html">TIENDA</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="videojuegos.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   VIDEOJUEGOS
                 </a>
                 <ul class="dropdown-menu sub-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="videojuegos.html">PS4</a></li>
-                  <li><a class="dropdown-item" href="videojuegos.html">PS5</a></li>
+                  <li><a class="dropdown-item" href="#">PS4</a></li>
+                  <li><a class="dropdown-item" href="#">PS5</a></li>
                   <li><a class="dropdown-item" href="videojuegos.html">NINTENDO SWITCH</a></li>
                 </ul>
               </li>
@@ -73,7 +74,7 @@
         </div>
       </nav>
 </header>
-<!-- Final Header -->
+<!-- Fin Header -->
 
 <!-- Inicio Main -->
 <main>
@@ -83,18 +84,24 @@
                 " ¡LOS MEJORES VIDEOJUEGOS Y ACCESORIOS PARA PODER JUGAR AL 100%! "
             </div>
         </div>
-    </div> <!-- Pubilicidad -->
+    </div> <!-- Fin Pubilicidad -->
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel"> <!-- Carrousel -->
         <div class="carousel-inner">
-          <div class="carousel-item active .blur-up.lazyloaded, .blur-up-big.lazyloaded, .blur-up-big.swiper-lazy-loaded">
-            <img src="src/assets/logo/imagen2.png" class="d-block w-100" alt="imagen 1 del carrousel">
-          </div>
-          <div class="carousel-item .blur-up.lazyloaded, .blur-up-big.lazyloaded, .blur-up-big.swiper-lazy-loaded">
-            <img src="src/assets/logo/imagen3.png" class="d-block w-100" alt="imagen 2 del carrousel">
-          </div>
-          <div class="carousel-item blur-up.lazyloaded blur-up-big lazyloaded blur-up-big swiper-lazy-loaded">
-            <img src="src/assets/logo/imagen4.png" class="d-block w-100" alt="imagen 3 del carrousel">
-          </div>
+          <a href="preventas.html">
+            <div class="carousel-item active .blur-up.lazyloaded, .blur-up-big.lazyloaded, .blur-up-big.swiper-lazy-loaded">
+              <img src="src/assets/logo/imagen2.png" class="d-block w-100" alt="imagen 1 del carrousel">
+            </div>
+          </a>
+          <a href="tienda.html">
+            <div class="carousel-item .blur-up.lazyloaded, .blur-up-big.lazyloaded, .blur-up-big.swiper-lazy-loaded">
+              <img src="src/assets/logo/imagen3.png" class="d-block w-100" alt="imagen 2 del carrousel">
+            </div>
+          </a>
+          <a href="videojuegos.html">
+            <div class="carousel-item blur-up.lazyloaded blur-up-big lazyloaded blur-up-big swiper-lazy-loaded">
+              <img src="src/assets/logo/imagen4.png" class="d-block w-100" alt="imagen 3 del carrousel">
+            </div>
+          </a>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -194,7 +201,7 @@
 <!--Fin Main --> 
 
 <!--Footer -->
-<footer> <!-- Contacto -->
+<footer>
     <div class="contacto">
         <h2>Contacto</h2>
         <form action="#" method="POST"> 
@@ -228,6 +235,9 @@
         $("#myCarouselCustom").carousel("next");
     });
     </script>
+
+    <!-- Script Font Awesome-->
+    <script src="https://kit.fontawesome.com/e550079096.js" crossorigin="anonymous"></script>
     
 </body>
 </html>

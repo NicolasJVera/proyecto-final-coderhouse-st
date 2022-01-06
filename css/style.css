@@ -23,9 +23,10 @@ h1 {
   padding: 10px;
   margin: 10px;
   font-size: 20rem;
+  color: #d2142c;
 }
 
-h3 {
+h2 {
   text-align: center;
   font-size: 3rem;
   display: block;
@@ -34,7 +35,7 @@ h3 {
   margin-block-end: 0.67em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  color: #e9374f;
+  color: #d2142c;
 }
 
 a {
@@ -50,7 +51,10 @@ p {
 /* Header */
 .navContainer {
   display: flex;
-  justify-content: left;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .mensaje-bienvenida {
@@ -109,7 +113,6 @@ header a {
 .menu {
   display: flex;
   justify-content: space-around;
-  align-items: center;
 }
 .menu li {
   padding: 0 0.1rem;
@@ -122,13 +125,13 @@ header a {
   transition: all 0.5s;
 }
 .menu li a:hover {
-  background-color: #e9374f;
+  background-color: #d2142c;
   color: #000;
 }
 
 .sub-menu ul li a {
   color: #000;
-  background-color: #e9374f;
+  background-color: #d2142c;
   padding: 0.8rem;
   border-radius: 2rem;
   transition: all 0.5s;
@@ -275,7 +278,7 @@ footer p {
 
 .boton {
   padding: 0.4rem;
-  border-color: #e9374f;
+  border-color: #d2142c;
   background-color: #d2142dc0;
   border-radius: 0.2rem;
   cursor: pointer;
@@ -295,6 +298,21 @@ input, textarea {
 /* Fin Footer */
 /* medias queries */
 /* Medias para Header */
+@media screen and (max-width: 768px) {
+  header .navContainer .menuDesplegable {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-bottom: 1rem;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 768px) {
+  header .navContainer .menuDesplegable li {
+    width: 90%;
+    text-align: center;
+    margin: 0.3rem 0;
+  }
+}
 @media (min-width: 768px) and (max-width: 979px) {
   .espacio, .espacio .span {
     width: 100%;

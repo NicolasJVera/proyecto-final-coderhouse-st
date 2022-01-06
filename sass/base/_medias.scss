@@ -2,6 +2,19 @@
 
 /* Medias para Header */
 
+@media screen and (max-width: 768px) {
+  header .navContainer .menuDesplegable {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-bottom: 1rem;
+    width: 90%; } }
+
+    @media screen and (max-width: 768px) {
+      header .navContainer .menuDesplegable li {
+        width: 90%;
+        text-align: center;
+        margin: 0.3rem 0; } }   
+
 @media (min-width: 768px) and (max-width: 979px) {
     .espacio, .espacio .span {
       width: 100%;
