@@ -49,13 +49,6 @@ p {
 
 /* Variables */
 /* Header */
-.navContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
 
 .mensaje-bienvenida {
   background-color: #d2162c;
@@ -137,11 +130,6 @@ header a {
   transition: all 0.5s;
 }
 
-.container-fluid {
-  height: 90%;
-  width: 100%;
-}
-
 .carousel-inner {
   height: 300px;
 }
@@ -172,7 +160,7 @@ img {
   background-color: #fff;
 }
 
-/*Main Y Grid */
+/*Main*/
 .espacio-banner {
   margin-bottom: 20px;
 }

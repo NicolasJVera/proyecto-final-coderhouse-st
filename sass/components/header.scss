@@ -1,13 +1,8 @@
 @import '../base/variables';
 
 /* Header */
-
-.navContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+.bg-niki {
+  background-color: $background;
 }
 
 .mensaje-bienvenida {
@@ -107,11 +102,6 @@
             }
         }
     }
-  }
-  
-  .container-fluid {
-    height: 90%;
-    width: 100%;
   }
   
   .carousel-inner {
